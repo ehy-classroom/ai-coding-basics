@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Folie 1",
+        "points": [
+            "Der Punkt 1",
+            "Punkt 2",
+            "Punkt 3"
+        ]
+    },
+    {
+        "title": "Folie 2",
+        "points": [
+            "Punkt 1",
+            "Punkt 2",
+            "Punkt 3"
+        ]
+    },
+    {
+        "title": "Folie 3",
+        "points": [
+            "Punkt 1",
+            "Punkt 2",
+            "Punkt 3"
+        ]
+    },
+    {
+        "title": "Folie 4",
+        "points": [
+            "Punkt 1",
+            "Punkt 2",
+            "Punkt 3"
+        ]
+    },
+    {
+        "title": "Folie 5",
+        "points": [
+            "Punkt 1",
+            "Punkt 2",
+            "Punkt 3"
+        ]
+    },
+    {
+        "title": "Folie 6",
+        "points": [
+            "Punkt 1",
+            "Punkt 2",
+            "Punkt 3"
+        ]
+    }
+]

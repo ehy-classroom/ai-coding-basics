@@ -7,8 +7,67 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="wrapper">
-      <section class="slide"></section>
+    <div class="slide-viewport">
+      <div class="slide-matrix">
+        <div class="slide" id="slide-1">
+          <h2>Folie 1</h2>
+          <ul>
+            <li>Punkt 1</li>
+            <li>Punkt 2</li>
+            <li>Punkt 3</li>
+          </ul>
+        </div>
+        <div class="slide" id="slide-2">
+          <h2>Folie 2</h2>
+          <ul>
+            <li>Punkt 1</li>
+            <li>Punkt 2</li>
+            <li>Punkt 3</li>
+          </ul>
+        </div>
+        <div class="slide" id="slide-3">
+          <h2>Folie 3</h2>
+          <ul>
+            <li>Punkt 1</li>
+            <li>Punkt 2</li>
+            <li>Punkt 3</li>
+          </ul>
+        </div>
+        <div class="slide" id="slide-4">
+          <h2>Folie 4</h2>
+          <ul>
+            <li>Punkt 1</li>
+            <li>Punkt 2</li>
+            <li>Punkt 3</li>
+          </ul>
+        </div>
+        <div class="slide" id="slide-5">
+          <h2>Folie 5</h2>
+          <ul>
+            <li>Punkt 1</li>
+            <li>Punkt 2</li>
+            <li>Punkt 3</li>
+          </ul>
+        </div>
+        <div class="slide" id="slide-6">
+          <h2>Folie 6</h2>
+          <ul>
+            <li>Punkt 1</li>
+            <li>Punkt 2</li>
+            <li>Punkt 3</li>
+          </ul>
+        </div>
+      </div>
     </div>
+    <nav class="slide-nav">
+      <button id="up">↑</button>
+      <button id="left">←</button>
+      <button id="right">→</button>
+      <button id="down">↓</button>
+      <button id="add-slide">Folie hinzufügen</button>
+      <label for="col-count" style="display:inline-block;margin-left:1em;">Spaltenanzahl:</label>
+      <input type="number" id="col-count" min="1" max="10" value="3" style="width:3em;">
+    </nav>
+    <script src="scripts.js"></script>
   </body>
 </html>
