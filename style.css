@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --color-slide-background-01: hsl(100,55%,55%);
+    --color-slide-background-02: hsl(200,55%,55%);
+    --color-slide-background-03: hsl(300,55%,55%);
+}
+
+
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+    padding: 20vw;
+    font-size: 2em
+}
